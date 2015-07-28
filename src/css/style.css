@@ -1,0 +1,422 @@
+#boardImage {
+  width: 800px;
+  height: 800px;
+  position: absolute;
+}
+
+#boardSpaces {
+  position: relative;
+}
+
+.space {
+  width: 78px;
+  height: 30px;
+  border: 2px solid transparent;
+  position: absolute;
+}
+
+.pawn--blue {
+  color: #5698ff;
+}
+
+.pawn--red {
+  color: #ffa9ab;
+}
+
+.pawn--yellow {
+  color: #ffe581;
+}
+
+.pawn--green {
+  color: #8dd360;
+}
+
+.pawn:before {
+  content: '\25CF';
+  font-size: 28px;
+  position: relative;
+  left: 31px;
+  top: -3px;
+}
+
+.blockade:before {
+  content: '\25CF \25CF';
+  font-size: 28px;
+  position: relative;
+  letter-spacing: 20px;
+  left: 13px;
+  top: -3px;
+}
+
+.space--portrait {
+  width: 30px;
+  height: 78px;
+}
+.space--portrait.pawn:before {
+  top: 19px;
+  left: 6px;
+}
+.space--portrait.blockade:before {
+  word-wrap: break-word;
+  top: 6px;
+  left: 6px;
+}
+
+.space__number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ccc;
+  font-size: 17px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+
+.space-0 {
+  top: 632px;
+  left: 443px;
+}
+
+.space-1 {
+  top: 600px;
+  left: 443px;
+}
+
+.space-2 {
+  top: 568px;
+  left: 443px;
+}
+
+.space-3 {
+  top: 536px;
+  left: 443px;
+}
+
+.space-4 {
+  top: 445px;
+  left: 535px;
+}
+
+.space-5 {
+  top: 445px;
+  left: 567px;
+}
+
+.space-6 {
+  top: 445px;
+  left: 599px;
+}
+
+.space-7 {
+  top: 445px;
+  left: 631px;
+}
+
+.space-8 {
+  top: 445px;
+  left: 663px;
+}
+
+.space-9 {
+  top: 445px;
+  left: 695px;
+}
+
+.space-10 {
+  top: 445px;
+  left: 727px;
+}
+
+.space-11 {
+  top: 445px;
+  left: 759px;
+}
+
+.space-12 {
+  top: 360px;
+  left: 759px;
+}
+
+.space-20 {
+  top: 275px;
+  left: 535px;
+}
+
+.space-19 {
+  top: 275px;
+  left: 567px;
+}
+
+.space-18 {
+  top: 275px;
+  left: 599px;
+}
+
+.space-17 {
+  top: 275px;
+  left: 631px;
+}
+
+.space-16 {
+  top: 275px;
+  left: 663px;
+}
+
+.space-15 {
+  top: 275px;
+  left: 695px;
+}
+
+.space-14 {
+  top: 275px;
+  left: 727px;
+}
+
+.space-13 {
+  top: 275px;
+  left: 759px;
+}
+
+.space-21 {
+  top: 233px;
+  left: 443px;
+}
+
+.space-22 {
+  top: 201px;
+  left: 443px;
+}
+
+.space-23 {
+  top: 169px;
+  left: 443px;
+}
+
+.space-24 {
+  top: 137px;
+  left: 443px;
+}
+
+.space-25 {
+  top: 105px;
+  left: 443px;
+}
+
+.space-26 {
+  top: 73px;
+  left: 443px;
+}
+
+.space-27 {
+  top: 41px;
+  left: 443px;
+}
+
+.space-28 {
+  top: 9px;
+  left: 443px;
+}
+
+.space-29 {
+  top: 9px;
+  left: 360px;
+}
+
+.space-37 {
+  top: 233px;
+  left: 273px;
+}
+
+.space-36 {
+  top: 201px;
+  left: 273px;
+}
+
+.space-35 {
+  top: 169px;
+  left: 273px;
+}
+
+.space-34 {
+  top: 137px;
+  left: 273px;
+}
+
+.space-33 {
+  top: 105px;
+  left: 273px;
+}
+
+.space-32 {
+  top: 73px;
+  left: 273px;
+}
+
+.space-31 {
+  top: 41px;
+  left: 273px;
+}
+
+.space-30 {
+  top: 9px;
+  left: 273px;
+}
+
+.space-45 {
+  top: 275px;
+  left: 6px;
+}
+
+.space-44 {
+  top: 275px;
+  left: 38px;
+}
+
+.space-43 {
+  top: 275px;
+  left: 70px;
+}
+
+.space-42 {
+  top: 275px;
+  left: 102px;
+}
+
+.space-41 {
+  top: 275px;
+  left: 134px;
+}
+
+.space-40 {
+  top: 275px;
+  left: 166px;
+}
+
+.space-39 {
+  top: 275px;
+  left: 198px;
+}
+
+.space-38 {
+  top: 275px;
+  left: 230px;
+}
+
+.space-46 {
+  top: 360px;
+  left: 6px;
+}
+
+.space-47 {
+  top: 445px;
+  left: 6px;
+}
+
+.space-48 {
+  top: 445px;
+  left: 38px;
+}
+
+.space-49 {
+  top: 445px;
+  left: 70px;
+}
+
+.space-50 {
+  top: 445px;
+  left: 102px;
+}
+
+.space-51 {
+  top: 445px;
+  left: 134px;
+}
+
+.space-52 {
+  top: 445px;
+  left: 166px;
+}
+
+.space-53 {
+  top: 445px;
+  left: 198px;
+}
+
+.space-54 {
+  top: 445px;
+  left: 230px;
+}
+
+.space-62 {
+  top: 761px;
+  left: 273px;
+}
+
+.space-61 {
+  top: 729px;
+  left: 273px;
+}
+
+.space-60 {
+  top: 697px;
+  left: 273px;
+}
+
+.space-59 {
+  top: 665px;
+  left: 273px;
+}
+
+.space-58 {
+  top: 633px;
+  left: 273px;
+}
+
+.space-57 {
+  top: 601px;
+  left: 273px;
+}
+
+.space-56 {
+  top: 569px;
+  left: 273px;
+}
+
+.space-55 {
+  top: 537px;
+  left: 273px;
+}
+
+.space-63 {
+  top: 761px;
+  left: 357px;
+}
+
+.space-64 {
+  top: 761px;
+  left: 443px;
+}
+
+.space-65 {
+  top: 729px;
+  left: 443px;
+}
+
+.space-66 {
+  top: 697px;
+  left: 443px;
+}
+
+.space-67 {
+  top: 665px;
+  left: 443px;
+}
+
+.space-68 {
+  top: 633px;
+  left: 443px;
+}
+
+/*# sourceMappingURL=style.css.map */
